@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Beranda" />
+
+    </group>
+
+    <item android:title="Ambil Antrian">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_baseline_local_hospital_24"
+                android:title="Pasien Baru" />
+            <item
+                android:id="@+id/nav_pxlama"
+                android:icon="@drawable/ic_baseline_local_hospital_24"
+                android:title="Pasien Lama" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="Jadwal Praktek Dokter">
+        <menu>
+            <item
+                android:id="@+id/nav_praktek"
+                android:icon="@drawable/ic_baseline_schedule_24"
+                android:title="Jadwal" />
+
+
+
+        </menu>
+    </item>
+
+<!--    <item android:title="Asuransi">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_bpjs"-->
+<!--                android:icon="@drawable/ic_baseline_info_24"-->
+<!--                android:title="Cek BPJS" />-->
+
+
+
+<!--        </menu>-->
+<!--    </item>-->
+
+    <item android:title="Pemeriksaan">
+        <menu>
+<!--            <item-->
+<!--                android:id="@+id/nav_pemeriksaansaya"-->
+<!--                android:icon="@drawable/ic_baseline_history_24"-->
+<!--                android:title="Pemeriksaan Saya" />-->
+
+            <item
+                android:id="@+id/nav_riwayat"
+                android:icon="@drawable/ic_baseline_history_24"
+                android:title="Riwayat Periksa" />
+
+
+
+        </menu>
+    </item>
+
+    <item android:title="Akun">
+        <menu>
+            <item
+                android:id="@+id/nav_profil"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title="Profil" />
+
+            <item
+                android:id="@+id/nav_bantuan"
+                android:icon="@drawable/ic_baseline_help_24"
+                android:title="Bantuan" />
+
+           
+            <item
+                android:id="@+id/nav_keluar"
+                android:icon="@drawable/places_ic_clear"
+                android:title="Keluar" />
+
+
+
+        </menu>
+    </item>
+</menu>

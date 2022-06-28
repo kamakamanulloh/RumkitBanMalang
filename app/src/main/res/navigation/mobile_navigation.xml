@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.softwarepintarcom.rumkitbanmlg.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.softwarepintarcom.rumkitbanmlg.pasien_baru.PasienBaruFragment"
+        android:label="Pasien Baru"
+        tools:layout="@layout/fragment_pasien_baru" />
+
+    <fragment
+        android:id="@+id/nav_pxlama"
+        android:name="com.softwarepintarcom.rumkitbanmlg.pendaftaran.AwalFragment"
+        android:label="Registrasi Pasien"
+        tools:layout="@layout/fragment_awal" />
+
+    <fragment
+        android:id="@+id/nav_riwayat"
+        android:name="com.softwarepintarcom.rumkitbanmlg.list_tiket.TiketFragment"
+        android:label="Antrian Saya"
+        tools:layout="@layout/fragment_tiket" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.softwarepintarcom.rumkitbanmlg.profil.ProfilFragment"
+        android:label="Profil Saya"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/nav_praktek"
+        android:name="com.softwarepintarcom.rumkitbanmlg.jadwal_dokter.JadwalFragment"
+        android:label="Jadwal Dokter"
+        tools:layout="@layout/fragment_jadwal" />
+
+</navigation>

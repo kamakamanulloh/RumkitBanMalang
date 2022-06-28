@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.softwarepintarcom.rumkitbanmlg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemee"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,MissingPrefix,UnusedAttribute">
+        <activity android:name="com.softwarepintarcom.rumkitbanmlg.pasien.TicketViewActivity"></activity>
+        <activity android:name="com.softwarepintarcom.rumkitbanmlg.pasien.PasienBaruActivity" />
+        <activity
+            android:name="com.softwarepintarcom.rumkitbanmlg.pasien.PasienActivity2"
+            android:label="Data Pasien"
+            android:theme="@style/AppTheme" />
+       
+        <activity android:name="com.softwarepintarcom.rumkitbanmlg.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.softwarepintarcom.rumkitbanmlg.login.LoginActivity" />
+        <activity android:name="com.softwarepintarcom.rumkitbanmlg.registrasi.PendaftaranActivity" />
+        <activity android:name="com.softwarepintarcom.rumkitbanmlg.HomeActivity"
+
+           />
+        <activity
+            android:name="com.softwarepintarcom.rumkitbanmlg.MainActivity"
+            android:label="@string/app_name"
+
+
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

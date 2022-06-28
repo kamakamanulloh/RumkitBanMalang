@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">RS Bhirawa Bhakti</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="no_antrian">No Antrian</string>
+    <string name="_9">9</string>
+    <string name="nama_dokter">Nama Dokter</string>
+    <string name="klinik">Klinik</string>
+    <string name="klinik_obgyn">Klinik Obgyn</string>
+    <string name="nama_no_rm">No RM</string>
+    <string name="tampilkan_detail_dan_barcode">Tampilkan Virtual Card</string>
+    <string name="history">History</string>
+    <string name="riwayat_antrian_anda">Riwayat Antrian Anda</string>
+    <string name="dialog">Apakah Anda Yakin ?</string>
+    <string name="ya">Iya</string>
+    <string name="batal">Batal</string>
+
+    <string-array name="jenis_id">
+        <item>------</item>
+        <item>KTP/SIM</item>
+        <item>No BPJS</item>
+        <item>No HP</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <array name="jenisBayar">
+        <item>Umum</item>
+        <item>BPJS</item>
+        <item>Asuransi</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
